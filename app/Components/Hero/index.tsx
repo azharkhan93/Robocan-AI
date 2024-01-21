@@ -41,7 +41,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   </a>
 </div>
 <div className="inline-flex mt-3  ml-4 ">
-  <a href="#" className="inline-flex rounded-full items-center justify-center px-5 py-2 text-base font-medium text-indigo-700 transition duration-150 ease-in-out bg-white border border-transparent  hover:bg-white focus:outline-none focus:shadow-outline ">
+  <a href="#" className="inline-flex rounded-full items-center justify-center px-5 py-2 text-base font-medium text-indigo-700 transition duration-150 ease-in-out  border border-transparent  hover:bg-white focus:outline-none focus:shadow-outline ">
     {/* New Circle SVG */}
     <svg width="35" height="35" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-4">
       <circle cx="34" cy="34" r="33" fill="white" stroke="#F5756B" stroke-width="2"/>
