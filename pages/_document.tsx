@@ -10,7 +10,7 @@ class MyDocument extends Document {
         <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link rel="icon" href="/logofooter.png" />
-          <title>Roboscan AI</title>
+          <title>RoboScan AI</title>
         <body>
           <Main />
           
