@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Contact = () => {
   return (
-    <div className="flex items-center justify-center p-5 bg-#F7FFFE  h-[400px]">
+    <div className="flex items-center justify-center p-5 bg-#F7FFFE  h-[450px]">
     <div className="  relative flex lg:h-[300px] flex-col items-center w-full max-w-6xl px-4 py-8 mx-auto text-center rounded-2xl lg:text-left lg:block  sm:px-6 md:pb-0 md:pt-12 lg:px-12 lg:py-12">
     <Image
     src="/contactbg.png"
