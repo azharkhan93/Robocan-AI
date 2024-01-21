@@ -62,12 +62,12 @@ const TestimonialSection: React.FC = () => {
       </svg>
       </div>
 
-      <p className="text-gray-700 mb-6 text-center text-l mt-4">
+      <p className="text-gray-700 mb-6 text-center text-l mt-4 mx-4">
         "The accuracy of Medical Imaging Solutions' technology has revolutionized the way I practice medicine."
       </p>
       
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center -mt-4 ">
   <div className="relative w-10 h-10 rounded-full overflow-hidden mb-2">
     <Image src="/tr.png" alt="Reviewer Avatar" layout="fill" objectFit="cover" />
   </div>
@@ -86,9 +86,9 @@ const TestimonialSection: React.FC = () => {
 
 
   
-  <div className="md:w-1/2 md:pl-8 mb-10">
-    <div className="bg-white p-6 rounded-2xl shadow-md">
-      <div className='flex items-center justify-center'>
+  <div className="md:w-1/2 md:pl-8 ">
+    <div className="bg-white  rounded-2xl shadow-md mt-4 ">
+      <div className='flex items-center justify-center mt-5'>
       <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 2.5L15.09 8.76L22 9.77L17 14.64L18.18 21.52L12 18.27L5.82 21.52L7 14.64L2 9.77L8.91 8.76L12 2.5Z" fill="#F5756B"/>
       </svg>
@@ -104,11 +104,14 @@ const TestimonialSection: React.FC = () => {
         <path d="M12 2.5L15.09 8.76L22 9.77L17 14.64L18.18 21.52L12 18.27L5.82 21.52L7 14.64L2 9.77L8.91 8.76L12 2.5Z" fill="#F5756B"/>
       </svg>
       </div>
-
-      <p className="text-gray-700 mb-6">
-      "The accuracy of Medical Imaging Solutions' technology has revolutionized the way I practice medicine."
+      <p className="text-gray-700 mb-6 text-center text-l mt-4 mx-4">
+        "The accuracy of Medical Imaging Solutions' technology has revolutionized the way I practice medicine."
       </p>
-      <div className="flex flex-col items-center ">
+
+      {/* <p className="text-gray-700 mb-6">
+      "The accuracy of Medical Imaging Solutions' technology has revolutionized the way I practice medicine."
+      </p> */}
+      <div className="flex flex-col items-center -mt-4 ">
   <div className="relative w-10 h-10 rounded-full overflow-hidden mb-2">
     <Image src="/tr.png" alt="Reviewer Avatar" layout="fill" objectFit="cover" />
   </div>
@@ -118,7 +121,7 @@ const TestimonialSection: React.FC = () => {
     <p className="text-l">Dr. John Smith</p>
 
     
-    <p className="text-gray-500 text-sm">Chief of Radiology at XYZ Hospital</p>
+    <p className="text-gray-500 text-sm mb-4">Chief of Radiology at XYZ Hospital</p>
   </div>
 </div>
 
@@ -127,7 +130,7 @@ const TestimonialSection: React.FC = () => {
     
   </div>
 </div>
-<div className="relative  rounded-full mb-8">
+{/* <div className="relative  rounded-full mb-8">
     <Image
         
         src="/skull.png"  
@@ -138,10 +141,10 @@ const TestimonialSection: React.FC = () => {
         
     />
     
-</div>
+</div> */}
 
-<div className="  flex justify-end items-end">
-{/* <div className='left-20'> */}
+{/* <div className="  flex justify-end items-end">
+
     <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M19 26.2L11.8 19M11.8 19L19 11.8M11.8 19H26.2M1 19C1 28.9411 9.05887 37 19 37C28.9411 37 37 28.9411 37 19C37 9.05887 28.9411 1 19 1C9.05887 1 1 9.05887 1 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
@@ -149,8 +152,8 @@ const TestimonialSection: React.FC = () => {
     <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M19 26.2L26.2 19M26.2 19L19 11.8M26.2 19H11.8M37 19C37 28.9411 28.9411 37 19 37C9.05887 37 1 28.9411 1 19C1 9.05887 9.05887 1 19 1C28.9411 1 37 9.05887 37 19Z" stroke="#F5756B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    {/* </div> */}
-  </div>
+   
+  </div> */}
    </div>
    
       
