@@ -6,30 +6,18 @@ const Cards = () => {
   return (
     <div className="font-sans ">
   <div className="container mx-auto flex justify-between p-8 ">
-  {/* <div className=""> */}
-    {/* <Image
-      src="/E1.png"
-      alt="Sample Image"
-      height={200}
-      width={80}
-      // objectFit="cover"
-      className="  rounded-full absolute" 
-    /> */}
-    {/* </div> */}
-    {/* <svg width="688" height="828" viewBox="0 0 688 828" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g filter="url(#filter0_f_444_6129)">
-          <circle cx="274" cy="414" r="214" fill="black"/>
-        </g>
-        <defs>
-          <filter id="filter0_f_444_6129" x="-140" y="0" width="828" height="828" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_444_6129"/>
-          </filter>
-        </defs>
-      </svg> */}
+  
     {/* Left Section with Three Cards */}
     <div className="flex-shrink-0 w-3/3 p-10  ">
+    <div className="absolute top-54 left-20 mt-4 ml-4 mb-8 ">
+            <Image
+              src="/Ec8.png"
+              alt="Top Left Image"
+              height={500}
+              width={400}
+              className="rounded-full"
+            />
+          </div>
       <div className="grid grid-cols-1 gap-4 mt-32 ">
         {/* Card 1 */}
         <div className="relative bg-white p-2 z-10 rounded-2xl shadow-md w-[400px]" style={{ marginLeft: '380px' }}>
