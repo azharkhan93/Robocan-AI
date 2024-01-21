@@ -40,9 +40,9 @@ const Data = () => {
             ))}
             <div className="mt-4"></div>
             
-            <button className="bg-lightblue w-full hover:bg-blue hover:text-white text-blue font-medium my-2 py-2 px-4 rounded">
+            {/* <button className="bg-lightblue w-full hover:bg-blue hover:text-white text-blue font-medium my-2 py-2 px-4 rounded">
               Sign up
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
