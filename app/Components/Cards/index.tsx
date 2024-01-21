@@ -7,7 +7,7 @@ const Cards = () => {
     <div className="font-sans ">
   <div className="container mx-auto flex justify-between p-8 ">
   
-    {/* Left Section with Three Cards */}
+    
     <div className="flex-shrink-0 w-3/3 p-10  ">
     <div className="absolute top-54 left-20 mt-4 ml-4 mb-8 ">
             <Image
@@ -19,9 +19,9 @@ const Cards = () => {
             />
           </div>
       <div className="grid grid-cols-1 gap-4 mt-32 ">
-        {/* Card 1 */}
+        
         <div className="relative bg-white p-2 z-10 rounded-2xl shadow-md w-[400px]" style={{ marginLeft: '380px' }}>
-  {/* SVG at the top-right corner */}
+  
   <div className="absolute top-3 right-0 mt-2 mr-2">
     <svg width="40" height="20" viewBox="0 0 61 36" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="18" cy="18" r="18" fill="#F5756B"/>
@@ -30,18 +30,18 @@ const Cards = () => {
     </svg>
   </div>
 
-  {/* Image and Card Content */}
+  
   <div className="flex items-start">
     <Image
       src="/tar.png"
       alt="Sample Image"
       height={40}
       width={40}
-      // objectFit="cover"
+    
       className="rounded-md mt-6"
     />
 
-    {/* Card Content */}
+   
     <div className="ml-4">
       <h3 className="text-l font-semibold mb-2 mt-3">Increased Accuracy</h3>
       <p className="text-gray-600 text-xs mb-3">
@@ -51,7 +51,7 @@ const Cards = () => {
   </div>
 </div>
 <div className="relative bg-white p-2 z-10 rounded-2xl shadow-md w-[400px]"style={{ marginLeft: '290px' }}  >
-  {/* SVG at the top-right corner */}
+  
   <div className="absolute top-3 right-0 mt-2 mr-2">
     <svg width="40" height="20" viewBox="0 0 61 36" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="18" cy="18" r="18" fill="#F5756B"/>
@@ -60,7 +60,7 @@ const Cards = () => {
     </svg>
   </div>
 
-  {/* Image and Card Content */}
+  
   <div className="flex items-start">
     <Image
       src="/sand.png"
@@ -71,7 +71,7 @@ const Cards = () => {
       className="rounded-md mt-6"
     />
 
-    {/* Card Content */}
+  
     <div className="ml-4">
       <h3 className="text-l font-semibold mb-2 mt-3">Time Savings</h3>
       <p className="text-gray-600 text-xs mb-3">
@@ -82,7 +82,7 @@ const Cards = () => {
 </div>
 
 <div className="relative bg-white p-2 rounded-2xl shadow-md w-[400px] ml-46 mt-4 " style={{ marginLeft: '360px' }} >
-  {/* SVG at the top-right corner */}
+  
   <div className="absolute top-3 right-0 mt-2 mr-2">
     <svg width="40" height="20" viewBox="0 0 61 36" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="18" cy="18" r="18" fill="#F5756B"/>
@@ -91,7 +91,7 @@ const Cards = () => {
     </svg>
   </div>
 
-  {/* Image and Card Content */}
+ 
   <div className="flex items-start">
     <Image
       src="/pil.png"
@@ -102,7 +102,7 @@ const Cards = () => {
       className="rounded-md mt-6"
     />
 
-    {/* Card Content */}
+    
     <div className="ml-4">
       <h3 className="text-l font-semibold mb-2 mt-3">Personalized Medicine
 </h3>

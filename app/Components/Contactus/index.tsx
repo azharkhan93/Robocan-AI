@@ -12,7 +12,7 @@ const Contact = () => {
     alt="Background Image"
     layout="fill"
     objectFit="cover"
-    // className="absolute "
+    
   />
     
         
@@ -29,17 +29,17 @@ const Contact = () => {
 
 <div className="inline-flex">
   <a href="#" className="inline-flex rounded-full items-center justify-center px-5 py-2 text-base font-medium text-indigo-700 transition duration-150 ease-in-out bg-white border border-transparent hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300">
-    {/* New Circle SVG */}
+   
     <svg width="40" height="40" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-4">
       <circle cx="34" cy="34" r="33" fill="white" stroke="#F5756B" stroke-width="2"/>
     </svg>
 
-    {/* Original SVG Icon */}
+    
     <svg width="18" height="20" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-7">
       <path d="M1 28L20 1M20 1C17.1667 2.66667 9 6.5 1 2.5M20 1C19.6667 5.5 20.2 15.1 25 17.5" stroke="#F5756B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
 
-    {/* Contact Us Text */}
+   
     <span className='ml-4 text-sm text-range'>Contact Us</span>
   </a>
 </div>

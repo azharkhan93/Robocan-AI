@@ -75,7 +75,7 @@ It is a long established fact that a reader will be distracted
 </svg>
 </div>
 
-          {/* SVG icon for Card 3 */}
+          
           <h2 className="text-xl font-bold mb-2 text-gray-900 ">Receive Prediction</h2>
           <p className="text-gray-600 text-center text-sm mb-6 ">
             There are many variations of passages of Lorem Ipsum available

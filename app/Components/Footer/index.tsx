@@ -64,13 +64,13 @@ const Footer = () => {
 </svg>
 </div>
 
-  {/* Add more SVG icons as needed */}
+  
 </div>
 
-              {/* Additional Paragraphs */}
+              
               <p className="mb-4">support@rhoscan.com</p>
 
-              {/* Copyright and Privacy/Terms Div */}
+              
 
           </div>
       </div>

@@ -6,7 +6,7 @@ const Service2 = () => {
   return (
     <div className=" p-8 mt-11">
       <div className="container  flex">
-        {/* Left side with image */}
+        
         <div className="w-1/2 pr-8">
         <Image
         src='/2.png'
@@ -152,17 +152,17 @@ const Service2 = () => {
           </div>
           <div className="inline-flex mt-6 ml-2 ">
   <a href="#" className="inline-flex rounded-full items-center justify-center px-5 py-2 text-base font-medium text-indigo-700 transition duration-150 ease-in-out bg-white border border-transparent  hover:bg-white focus:outline-none focus:shadow-outline ">
-    {/* New Circle SVG */}
+   
     <svg width="35" height="35" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-4">
       <circle cx="34" cy="34" r="33" fill="white" stroke="#F5756B" stroke-width="2"/>
     </svg>
 
-    {/* Original SVG Icon */}
+   
     <svg width="20" height="20" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-7">
       <path d="M1 28L20 1M20 1C17.1667 2.66667 9 6.5 1 2.5M20 1C19.6667 5.5 20.2 15.1 25 17.5" stroke="#F5756B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
 
-    {/* Contact Us Text */}
+  
     <span className='ml-4 text-sm text-range'>Explore All Products</span>
   </a>
 </div>

@@ -14,10 +14,10 @@ const Services: React.FC = () => {
                 <div className="lg:w-1/2 mb-4  lg:mb-0 relative ml-24">
                     
                 <Image
-          src="/33.png" // Replace with the actual path to your small image
+          src="/33.png" 
           alt="Small Image"
-          width={200} // Adjust the width as per your design
-          height={100} // Adjust the height as per your design
+          width={200} 
+          height={100} 
           className="top-0 left-0 ml-7 "
         />
         <div className='-mt-11 ml-24'>
@@ -39,17 +39,17 @@ const Services: React.FC = () => {
           
           <div className="inline-flex mt-5 ">
   <a href="#" className="inline-flex rounded-full items-center justify-center px-5 py-2 text-base font-medium text-indigo-700 transition duration-150 ease-in-out bg-white border border-transparent  hover:bg-white focus:outline-none focus:shadow-outline ">
-    {/* New Circle SVG */}
+    
     <svg width="35" height="35" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-4">
       <circle cx="34" cy="34" r="33" fill="white" stroke="#F5756B" stroke-width="2"/>
     </svg>
 
-    {/* Original SVG Icon */}
+    
     <svg width="20" height="20" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-7">
       <path d="M1 28L20 1M20 1C17.1667 2.66667 9 6.5 1 2.5M20 1C19.6667 5.5 20.2 15.1 25 17.5" stroke="#F5756B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
 
-    {/* Contact Us Text */}
+    
     <span className='ml-4 text-sm text-range'>Get Started</span>
   </a>
 </div>
@@ -59,16 +59,16 @@ const Services: React.FC = () => {
 
 
                 <div className="lg:w-1/2 ml-20">
-                    {/* Using next/image component */}
+                    
                     <Image
-                        src="/skul93.png" // Replace with the actual path to your image
+                        src="/skul93.png" 
                         alt="Image"
-                        width={600} // Adjust the width as per your design
-                        height={400} // Adjust the height as per your design
+                        width={600} 
+                        height={400} 
                         className="w-full h-auto " />
                 </div>
             </div>
-            {/* <Service2 /> */}
+            
             
         </div>
         </>
