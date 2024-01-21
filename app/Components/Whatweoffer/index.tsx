@@ -67,8 +67,8 @@ const Whatwe = () => {
               </p>
             </div>
           </div> */}
-<div className="md:w-1/3 mx-auto mb-11 mt-4">
-            <div className="bg-white p-4 rounded-2xl shadow-md text-center ml-24 h-[300px w-[400px]">
+<div className="md:w-1/3 mx-auto mb-11 mt-6">
+            <div className="bg-white p-4 rounded-2xl shadow-md text-center ml-20 h-[300px w-[450px]">
               {/* SVG for the Custom Model Training */}
               
   <div className="absolute m-4 ">
