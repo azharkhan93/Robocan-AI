@@ -32,7 +32,7 @@ const Cards = () => {
     <div className="flex-shrink-0 w-3/3 p-10  ">
       <div className="grid grid-cols-1 gap-4 mt-32 ">
         {/* Card 1 */}
-        <div className="relative bg-white p-2 z-10 rounded-2xl shadow-md w-[400px]" style={{ marginLeft: '400px' }}>
+        <div className="relative bg-white p-2 z-10 rounded-2xl shadow-md w-[400px]" style={{ marginLeft: '380px' }}>
   {/* SVG at the top-right corner */}
   <div className="absolute top-3 right-0 mt-2 mr-2">
     <svg width="40" height="20" viewBox="0 0 61 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +93,7 @@ const Cards = () => {
   </div>
 </div>
 
-<div className="relative bg-white p-2 rounded-2xl shadow-md w-[400px] ml-46 mt-4 " style={{ marginLeft: '400px' }} >
+<div className="relative bg-white p-2 rounded-2xl shadow-md w-[400px] ml-46 mt-4 " style={{ marginLeft: '360px' }} >
   {/* SVG at the top-right corner */}
   <div className="absolute top-3 right-0 mt-2 mr-2">
     <svg width="40" height="20" viewBox="0 0 61 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +152,7 @@ By allowing customers to train their own models, we enable personalized medicine
     height={500}
     width={500}
     // objectFit="cover"
-    className="rounded-md"
+    className="rounded-md -ml-5"
   />
 
       </div>
